@@ -1,0 +1,44 @@
+/* client/src/styling/logout.css */
+
+
+.containerlogout {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  max-height: 400px;
+  margin: 20vh auto;
+  margin-bottom: 5px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.containerlogout p {
+  font-size: 16px; /* Set the paragraph font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #f49069; /* Set the paragraph color */
+    margin-bottom: 10px; /* Add margin to separate paragraphs */
+    text-align: center;
+}
+
+.h1logout {
+  color: #f49069;
+}
+
+.btnlogout {
+  background-color: #fedc7b;
+  color: #4a4a4a;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnlogout:hover {
+  background-color: #e0c568;
+}
+  

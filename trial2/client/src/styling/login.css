@@ -1,0 +1,52 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/home/naisiae/Development/code/Phase_4/trial2/client/src/styling/pictures/sand.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .login-container {
+    background-color: #aaba7284; /* Semi-transparent white background */
+    padding: 20px;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    color: #f1f4e1;
+    font-size: larger;
+    font-weight: 900;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    margin-right: 8px;
+    color: #f1f4e1;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+  }
+  
+  button {
+    background-color: #f8ccc3;
+    color: #f1f4e1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  

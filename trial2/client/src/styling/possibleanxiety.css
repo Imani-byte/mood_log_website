@@ -1,0 +1,27 @@
+/* Styling for the card container */
+.card-container {
+    max-width: 700px; /* Set the maximum width of the card */
+    margin: 20px auto; /* Center the card on the page */
+    padding: 20px; /* Add padding for better visual appeal */
+    border: 1px solid #fff; /* Add a border for a card-like appearance */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: #fedc7b; /* Set a background color for the card */
+  }
+  
+  /* Styling for the card heading */
+  .card-container h1 {
+    font-size: 55px; /* Set the heading font size */
+    color: #333; /* Set the heading color */
+    text-align: center;
+  }
+  
+  /* Styling for the card paragraphs */
+  .card-container p {
+    font-size: 16px; /* Set the paragraph font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #666; /* Set the paragraph color */
+    margin-bottom: 10px; /* Add margin to separate paragraphs */
+    text-align: center;
+  }
+  

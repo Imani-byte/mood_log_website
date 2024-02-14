@@ -1,0 +1,65 @@
+<!-- depressive_quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depressive Disorder Quiz</title>
+</head>
+<body>
+    <h1>Depressive Disorder Quiz</h1>
+    <form method="POST" action="/depressive_quiz">
+        <label for="question1">Question 1: Have you experienced a persistent feeling of sadness or emptiness for most of the day, nearly every day?</label>
+        <div>
+            <input type="radio" name="question1" value="yes" required>
+            <label for="question1">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="question1" value="no" required>
+            <label for="question1">No</label>
+        </div>
+
+        <label for="question2">Question 2: Have you lost interest or pleasure in activities that you once enjoyed?</label>
+        <div>
+            <input type="radio" name="question2" value="yes" required>
+            <label for="question2">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="question2" value="no" required>
+            <label for="question2">No</label>
+        </div>
+
+        <label for="question3">Question 3: Do you have significant changes in appetite or weight (significant weight loss or gain)?</label>
+        <div>
+            <input type="radio" name="question3" value="yes" required>
+            <label for="question3">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="question3" value="no" required>
+            <label for="question3">No</label>
+        </div>
+
+        <label for="question4">Question 4: Have you noticed changes in your sleep patterns, such as difficulty falling asleep, staying asleep, or sleeping too much?</label>
+        <div>
+            <input type="radio" name="question3" value="yes" required>
+            <label for="question4">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="question4" value="no" required>
+            <label for="question4">No</label>
+        </div>
+
+        <label for="question5">Question 5: Do you feel fatigued or have a lack of energy, even after getting enough rest</label>
+        <div>
+            <input type="radio" name="question5" value="yes" required>
+            <label for="question5">Yes</label>
+        </div>
+        <div>
+            <input type="radio" name="question5" value="no" required>
+            <label for="question5">No</label>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

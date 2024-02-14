@@ -1,0 +1,50 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+
+
+li {
+  margin-right: 20px;  /* Add some margin between the list items */
+}
+
+Link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+Link:hover {
+  background-color: #555;
+}
+
+.landing-page {
+  text-align: center;
+  background-color: #708240;
+  color: white;
+}
+header {
+  background-image: url('/home/naisiae/Development/code/Phase_4/trial2/client/src/styling/pictures/image.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 30vh;
+  padding-bottom: 0%;
+  font-size: 40px;
+}
+
+
+section {
+  background-color: #708240;
+  font-size: larger;
+  margin: 50vh;
+}
+
+footer {
+  padding: 5px;
+  color: white;
+  background-color: #fedc7b;
+}

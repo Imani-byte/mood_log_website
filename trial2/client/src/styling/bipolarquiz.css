@@ -1,0 +1,64 @@
+/* Add this styling to your existing CSS file or create a new one */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #abba72;
+  justify-content: center;
+}
+
+.quizbanner {
+  background-image: url('/home/naisiae/Development/code/Phase_4/trial2/client/src/styling/pictures/image (4).png'); /* Path to your image */
+  background-size: cover; /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  padding-top: 30vh;
+  padding-bottom: 0%;
+  font-size: 30px;
+  color: #f1f4e1;
+}
+
+.container {
+  max-width: 600px; /* Set the maximum width of the card */
+  margin: auto; /* Center the card horizontally */
+  padding: 20px; /* Add some padding to the card content */
+  border: 1px solid #ccc; /* Add a border for a card-like look */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px #fff;
+  background-color: #fedb7b;
+  font-size: large;
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #708240;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #abba72;
+  color: #f1f4e1;;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+}
